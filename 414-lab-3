@@ -1,1 +1,121 @@
+3
+ <!-- 团队成员 -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-academia-blue mb-4">团队成员</h2>
+        <div class="w-24 h-1 bg-academia-green mx-auto"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- 教师 -->
+        <div class="fade-in">
+          <h3 class="text-xl font-bold text-academia-blue mb-6 flex items-center">
+            <i class="fa fa-user text-academia-green mr-2"></i>
+            教师
+          </h3>
+          <div class="space-y-4">
+            <div class="member-card">
+              <div class="h-96 overflow-hidden">
+                <img src="https://zyhj.hzau.edu.cn/__local/6/D9/ED/9164E559CF896941938C3CA2B68_CAB74035_176EB.jpg">
+              </div>
+              <div class="p-5">
+                <h4 class="text-lg font-bold text-academia-blue mb-1">邱国红</h4>
+                <p class="text-gray-600 mb-3">教授/博士生导师</p>
+                <p class="text-gray-700 text-sm">
+                  研究方向：环境污染与修复（污染土壤修复、水处理）、环境电化学
+                </p>
+                <div class="mt-4 flex justify-between">
+                  <a href="mailto:qiugh@mail.hzau.edu.cn" class="text-academia-blue hover:text-academia-green transition-colors">
+                    <i class="fa fa-envelope"></i> 邮箱
+                  </a>
+                  <a href="https://zyhj.hzau.edu.cn/info/1183/7609.htm/" class="text-academia-blue hover:text-academia-green transition-colors">
+                    <i class="fa fa-link"></i> 个人主页
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 指导博士后 -->
+        <div class="fade-in delay-200">
+          <h3 class="text-xl font-bold text-academia-blue mb-6 flex items-center">
+            <i class="fa fa-graduation-cap text-academia-blue mr-2"></i>
+            指导博士后
+          </h3>
+          <div class="space-y-4">
+            <div class="member-card">
+              <div class="h-96 overflow-hidden">
+                <img src="https://eebe.wit.edu.cn/__local/D/F2/A6/66320F9D5CF960B98468B7C5989_0F2C9940_1A6A5.png" alt="刘立虎" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              </div>
+              <div class="p-5">
+                <h4 class="text-lg font-bold text-academia-blue mb-1">刘立虎</h4>
+                <p class="text-gray-600 mb-3">“博新计划”入选者，已出站</p>
+                <p class="text-gray-700 text-sm">
+                  研究方向：环境电化学、污染修复
+                </p>
+              </div>
+            </div>
+            
+            <div class="member-card">
+              <div class="h-96 overflow-hidden">
+                <img src="https://nongxue.henau.edu.cn/uploads/allimg/241023/1-2410231F609193.jpg" alt="段贤杰" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              </div>
+              <div class="p-5">
+                <h4 class="text-lg font-bold text-academia-blue mb-1">段贤杰</h4>
+                <p class="text-gray-600 mb-3">已出站</p>
+                <p class="text-gray-700 text-sm">
+                  研究方向：土壤污染修复
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 在读博士生 -->
+        <div class="fade-in delay-300">
+          <h3 class="text-xl font-bold text-academia-blue mb-6 flex items-center">
+            <i class="fa fa-book text-academia-green mr-2"></i>
+            在读博士生
+          </h3>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">卢涛</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">王宜</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">王子威</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">郑沈</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">闵涛</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">谭知涵</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">邓胜君</h4>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm hover-lift">
+                <h4 class="font-semibold text-academia-blue">张婷</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mt-12 text-center">
+        <a href="members.html" class="inline-flex items-center px-6 py-3 bg-academia-blue text-white font-medium rounded-lg hover:bg-academia-blue/90 transition-colors shadow-lg">
+          查看全部成员
+          <i class="fa fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
